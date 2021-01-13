@@ -1,6 +1,16 @@
 body {
     background-color: lightblue;
     
+    
+    
+}
+
+#org{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #explicação {
@@ -21,4 +31,21 @@ font-size: 18px;
 #b1{
     text-align: center;
 }
+
+.botoes button {
+    font-size: 10pt;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(28, 151, 192);
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
